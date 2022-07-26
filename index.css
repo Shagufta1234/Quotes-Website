@@ -1,0 +1,115 @@
+.container {
+    position: relative;
+    width: 1440px;
+    height: 650px;
+    top: 0;
+    left: 0;
+    background-color: #050927;
+}
+
+.inner {
+    position: absolute;
+    width: 894px;
+    height: 501px;
+    left: calc(50% - 894px/2);
+    top: calc(50% - 501px/2 + 7.5px);
+    background: #1B9BE2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+.box {
+    position: absolute;
+    width: 662px;
+    height: 422px;
+    left: calc(50% - 662px/2 - 2px);
+    top: calc(50% - 422px/2 + 7px);
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 28px 28px;
+    overflow: hidden;
+}
+
+.number {
+    position: absolute;
+    width: 116.31px;
+    height: 102.64px;
+    left: 545.63px;
+    top: 0px;
+
+    background: radial-gradient(82.23% 82.23% at 49.69% 18.02%, #D9D9D9 0%, rgba(78, 135, 187, 0.39) 100%);
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0px 105px;
+    transform: rotate(0.35deg);
+}
+
+#tweetMe {
+    position: absolute;
+    width: 84px;
+    height: 82px;
+    left: 26px;
+    top: 3px;
+}
+.tweetMe:hover{
+    cursor:pointer;
+}
+
+.col {
+    position: absolute;
+    width: 662px;
+    height: 74px;
+    left: 0px;
+    top: 348px;
+
+    background: rgba(8, 105, 159, 0.85);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 28px 28px;
+}
+
+.col:hover{
+    cursor: pointer;
+}
+
+#newQ {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    right: 196px;
+    top: 16px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+i{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    left: 40px;
+    top: 100px;
+}
+#quotes{
+    position: relative;
+    left: -8px;
+    top: -55px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+#author{
+    position: relative;
+    left: -63px;
+    top: -55px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    text-align:right;
+}
